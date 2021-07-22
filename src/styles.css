@@ -1,0 +1,70 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: #fbeeac;
+}
+
+#container-todo {
+  background: url("https://i.pinimg.com/originals/b4/38/e0/b438e061bf0f4422b06a6b68f462da88.jpg")
+    no-repeat;
+  width: 300px;
+  height: 480px;
+  margin: 20px auto !important;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+#container-todo > h1 {
+  color: grey;
+  padding: 5px;
+  font-size: 24px;
+  width: 42%;
+  margin: 10px auto 20px auto;
+  font-weight: bold;
+  border-radius: 15px 10px 15px 10px;
+  transform: rotate(5deg);
+  font-family: "Shadows Into Light", cursive;
+  background-color: #f4d160;
+}
+
+#div-input > input {
+  clear: right;
+  border-bottom: 2px dashed #f4d160;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  opacity: 100%;
+  margin-top: 15px;
+  font-family: "Shadows Into Light", cursive;
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-size: 18px;
+  color: grey;
+  outline: none;
+}
+
+#div-input > button {
+  float: right;
+  display: block;
+  border: 2px solid !important;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 18px;
+  font-weight: bold;
+  width: 50px;
+}
+
+#div-input {
+}
+
+ul {
+  text-align: left;
+}
+
+ul > li {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 18px;
+  font-weight: bold;
+}
